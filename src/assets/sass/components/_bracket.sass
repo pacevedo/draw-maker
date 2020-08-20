@@ -1,0 +1,67 @@
+.draw 
+  margin: 20px
+  border-spacing: 0
+.first-round 
+  height: 80px
+  margin-bottom: 5px
+.quarterfinals 
+  display: inline-flex
+  align-items: center
+  margin: 20px 0 20px 0
+  height: 40px
+  .separator 
+    height: 40px 
+.semifinals 
+  position: relative
+  width: 160px
+  height: 160px
+  .other-round
+    margin: 0
+    position: absolute
+    top: 50%
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+  .separator 
+    height: 80px
+.final 
+  position: relative
+  width: 160px
+  .other-round
+    margin-bottom: 60px
+    margin: 0
+    position: absolute
+    top: 50%
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+  .separator 
+    height: 160px
+.other-round 
+  border: 1px solid #cccccc
+  width: 150px
+  align-items: center
+  display: inline-flex
+  height: 40px
+  span 
+    font-size: 10pt
+    padding: 5px
+.separator 
+  display: inline-flex
+  line-height: 1
+  align-items: center
+  width: 10px
+  background-color: #299b62
+.draw-matchup 
+  border-collapse: collapse
+  td 
+    width: 100%
+    span
+      border: 1px solid #cccccc
+      padding: 5px
+      width: 150px
+      display: inline-flex
+      height: 40px
+      font-size: 10pt
+      line-height: 1
+      align-items: center
+.winner
+  font-weight: bold
